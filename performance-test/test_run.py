@@ -19,4 +19,4 @@ load_test = invokust.LocustLoadTest(settings)
 load_test.run()
 response = load_test.stats()
 
-test_response()
+# test_response()
