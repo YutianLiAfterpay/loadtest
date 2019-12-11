@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  loadtest:
+    container_name: loadtest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: loadtest:0.0.2
+    ports:
+      - 8082:8082
